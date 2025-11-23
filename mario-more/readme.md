@@ -7,7 +7,9 @@ In a file called mario.c in a folder called mario-more, implement a program in C
  ###  ###
 ####  ####
 ```
-And let’s allow the user to decide just how tall the pyramids should be by first prompting them for a positive int between, say, 1 and 8, inclusive. Examples
+And let’s allow the user to decide just how tall the pyramids should be by first prompting them for a positive int between, say, 1 and 8, inclusive.
+
+Examples:
 
 Here’s how the program might work if the user inputs 8 when prompted:
 ```
@@ -32,12 +34,12 @@ Height: 4
 ####  ####
 ```
 Here’s how the program might work if the user inputs 2 when prompted:
-
+```
 $ ./mario
 Height: 2
  #  #
 ##  ##
-
+```
 And here’s how the program might work if the user inputs 1 when prompted:
 ```
 $ ./mario
